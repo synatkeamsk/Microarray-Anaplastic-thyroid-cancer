@@ -187,20 +187,6 @@ names(gene_ranks) <- rownames(results)
 # Sort decreasing
 gene_ranks <- sort(gene_ranks, decreasing = TRUE)
 head(gene_ranks)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # download from https://data.broadinstitute.org/gsea-msigdb/msigdb/release/7.5.1/ 
 gmt_file <- "h.all.v7.5.1.symbols.gmt"
 gene_sets <- read.gmt(gmt_file)
